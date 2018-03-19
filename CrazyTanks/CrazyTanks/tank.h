@@ -10,12 +10,8 @@ private:
 	int oldPosY;
 	int posPuska;
 
-	//void vectorShot(int,int,int);
 	void drawTank(int,int,int);
 	void cleanOldPosition();
-
-  
-
 
 public:
 	tank(int, int);
@@ -23,15 +19,10 @@ public:
 	void tankUp();
 	void tankRight();
 	void tankDown();
-	//void shot();
-	//std::thread thr(void shot());
 	int getX();
 	int getY();
 	int getPosPuska();
 	
-	
-
-
 	~tank();
 };
 
