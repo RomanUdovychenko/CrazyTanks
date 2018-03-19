@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "tank.h"
 #include <Windows.h>
-
+/*
 void tank::vectorShot(int shotX, int shotY,int vector)
 {
 	HWND hWnd = GetConsoleWindow();
@@ -72,7 +72,7 @@ void tank::vectorShot(int shotX, int shotY,int vector)
 		
 	}
 }
-	
+	*/
 
 	void tank::drawTank(int plusX,int plusY,int puska)
 {
@@ -239,7 +239,7 @@ void tank::tankDown()
 	//oldPosX = nowPosX;
 	//oldPosY = nowPosY;
 }
-
+/*
 void tank::shot()
 {
 	
@@ -261,7 +261,11 @@ void tank::shot()
 	default:
 		break;
 	}
+
+	
 }
+*/
+
 
 int tank::getX()
 {
@@ -271,6 +275,11 @@ int tank::getX()
 int tank::getY()
 {
 	return oldPosY;
+}
+
+int tank::getPosPuska()
+{
+	return posPuska;
 }
 
 
